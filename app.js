@@ -2,7 +2,7 @@
 const MONTH_NAMES = ["","1월","2월","3월","4월","5월","6월","7월","8월","9월","10월","11월","12월"];
 const MONTH_SHORT = ["","1","2","3","4","5","6","7","8","9","10","11","12"];
 const HOME_CENTER = [20, 148];
-const HOME_ZOOM   = 2;
+const HOME_ZOOM   = 2.5;
 
 let SPOTS = []; // spots.json 로드 후 채워짐
 
@@ -10,6 +10,8 @@ let SPOTS = []; // spots.json 로드 후 채워짐
 const map = L.map('map', {
   center: HOME_CENTER,
   zoom: HOME_ZOOM,
+  zoomSnap: 0.5,
+  zoomDelta: 0.5,
   minZoom: 2,
   maxZoom: 14,
   zoomControl: false,
@@ -40,7 +42,7 @@ legendCtrl.addTo(map);
 
 // ── State ─────────────────────────────────
 let selectedMonth  = 0;
-let selectedCreature = '';
+let selectedCreatures = [];
 let selectedSpotId = null;
 const activeMarkers = {}; // { [spotId]: { [offset]: L.Marker } }
 
@@ -59,7 +61,7 @@ function matchesMonth(spot) {
 }
 
 function matchesCreature(spot) {
-  return !selectedCreature || spot.creatures.includes(selectedCreature);
+  return selectedCreatures.length === 0 || selectedCreatures.every(creature => spot.creatures.includes(creature));
 }
 
 function matchesFilters(spot) {
@@ -234,7 +236,11 @@ function calcStats() {
   const hlCount         = filteredSpots.length;
   const uniqueCreatures = new Set(filteredSpots.flatMap(s => s.creatures)).size;
   const countryCount    = new Set(filteredSpots.map(s => baseCountry(s))).size;
-  const filterLabel     = selectedCreature ? ` · ${selectedCreature}` : '';
+  const filterLabel     = selectedCreatures.length === 0
+    ? ''
+    : selectedCreatures.length === 1
+      ? ` · ${selectedCreatures[0]}`
+      : ` · 생물 ${selectedCreatures.length}종 선택`;
 
   document.getElementById('stat-total').textContent      = SPOTS.length;
   document.getElementById('stat-highlight').textContent  = hlCount;
@@ -328,15 +334,23 @@ function renderCreatureFilters() {
   const creatures = [...new Set(SPOTS.flatMap(spot => spot.creatures))].sort((a, b) => a.localeCompare(b, 'ko'));
 
   container.innerHTML = `
-    <button class="creature-filter-btn${selectedCreature === '' ? ' active' : ''}" data-creature="">전체</button>
+    <button class="creature-filter-btn${selectedCreatures.length === 0 ? ' active' : ''}" data-creature="">전체</button>
     ${creatures.map(creature => `
-      <button class="creature-filter-btn${selectedCreature === creature ? ' active' : ''}" data-creature="${creature}">${creature}</button>
+      <button class="creature-filter-btn${selectedCreatures.includes(creature) ? ' active' : ''}" data-creature="${creature}">${creature}</button>
     `).join('')}
   `;
 
   container.querySelectorAll('.creature-filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      selectedCreature = btn.dataset.creature;
+      const creature = btn.dataset.creature;
+      if (creature === '') {
+        selectedCreatures = [];
+      } else if (selectedCreatures.includes(creature)) {
+        selectedCreatures = selectedCreatures.filter(item => item !== creature);
+      } else {
+        selectedCreatures = [...selectedCreatures, creature];
+      }
+
       renderCreatureFilters();
 
       if (selectedSpotId !== null) {
