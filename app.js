@@ -40,17 +40,30 @@ legendCtrl.addTo(map);
 
 // ── State ─────────────────────────────────
 let selectedMonth  = 0;
+let selectedCreature = '';
 let selectedSpotId = null;
 const activeMarkers = {}; // { [spotId]: { [offset]: L.Marker } }
 
 // ── Helpers ───────────────────────────────
 function isHighlighted(spot) {
-  return selectedMonth === 0 || spot.bestMonths.includes(selectedMonth);
+  return matchesFilters(spot);
 }
 
 // country 필드에서 기본 국가명 추출 (· 이전 부분)
 function baseCountry(spot) {
   return spot.country.split('·')[0].trim();
+}
+
+function matchesMonth(spot) {
+  return selectedMonth === 0 || spot.bestMonths.includes(selectedMonth);
+}
+
+function matchesCreature(spot) {
+  return !selectedCreature || spot.creatures.includes(selectedCreature);
+}
+
+function matchesFilters(spot) {
+  return matchesMonth(spot) && matchesCreature(spot);
 }
 
 // ── Markers ───────────────────────────────
@@ -126,10 +139,7 @@ function visibleOffsets() {
 
 function renderMarkers() {
   const needed = new Set(visibleOffsets());
-  // 월 필터 시 하이라이트된 스팟만 지도에 표시
-  const visibleSpots = selectedMonth === 0
-    ? SPOTS
-    : SPOTS.filter(s => isHighlighted(s));
+  const visibleSpots = SPOTS.filter(s => matchesFilters(s));
 
   // 숨겨져야 할 스팟의 마커 제거
   SPOTS.forEach(spot => {
@@ -220,9 +230,11 @@ function selectSpot(id) {
 
 // ── Stats (JSON 기반 동적 계산) ────────────
 function calcStats() {
-  const hlCount         = (selectedMonth === 0 ? SPOTS : SPOTS.filter(s => isHighlighted(s))).length;
-  const uniqueCreatures = new Set(SPOTS.flatMap(s => s.creatures)).size;
-  const countryCount    = new Set(SPOTS.map(s => baseCountry(s))).size;
+  const filteredSpots   = SPOTS.filter(s => matchesFilters(s));
+  const hlCount         = filteredSpots.length;
+  const uniqueCreatures = new Set(filteredSpots.flatMap(s => s.creatures)).size;
+  const countryCount    = new Set(filteredSpots.map(s => baseCountry(s))).size;
+  const filterLabel     = selectedCreature ? ` · ${selectedCreature}` : '';
 
   document.getElementById('stat-total').textContent      = SPOTS.length;
   document.getElementById('stat-highlight').textContent  = hlCount;
@@ -231,8 +243,8 @@ function calcStats() {
 
   document.getElementById('panel-subtitle').textContent =
     selectedMonth === 0
-      ? `전세계 ${SPOTS.length}개 베스트 포인트`
-      : `${MONTH_NAMES[selectedMonth]} 추천 ${hlCount}개 스팟`;
+      ? `전세계 ${hlCount}개 베스트 포인트${filterLabel}`
+      : `${MONTH_NAMES[selectedMonth]} 추천 ${hlCount}개 스팟${filterLabel}`;
 
   // 모바일 시트 동기화
   const totalM = document.getElementById('stat-total-m');
@@ -248,8 +260,7 @@ function renderSpotList() {
   const listEl = document.getElementById('spot-list');
   listEl.innerHTML = '';
 
-  // 표시할 스팟: 월 선택 시 하이라이트만, 전체 선택 시 모두
-  const spotsToShow = (selectedMonth === 0 ? SPOTS : SPOTS.filter(s => isHighlighted(s)))
+  const spotsToShow = SPOTS.filter(s => matchesFilters(s))
     .slice()
     .sort((a, b) => {
       const ca = baseCountry(a), cb = baseCountry(b);
@@ -267,7 +278,7 @@ function renderSpotList() {
   });
 
   if (countryOrder.length === 0) {
-    listEl.innerHTML = `<div class="empty-msg">이 달에 추천 스팟이 없습니다.</div>`;
+    listEl.innerHTML = `<div class="empty-msg">선택한 조건에 맞는 스팟이 없습니다.</div>`;
   } else {
     countryOrder.forEach(country => {
       // 국가 헤더
@@ -312,6 +323,36 @@ function renderSpotList() {
   if (document.getElementById('sheet-body')) syncSheetList();
 }
 
+function renderCreatureFilters() {
+  const container = document.getElementById('creature-filters');
+  const creatures = [...new Set(SPOTS.flatMap(spot => spot.creatures))].sort((a, b) => a.localeCompare(b, 'ko'));
+
+  container.innerHTML = `
+    <button class="creature-filter-btn${selectedCreature === '' ? ' active' : ''}" data-creature="">전체</button>
+    ${creatures.map(creature => `
+      <button class="creature-filter-btn${selectedCreature === creature ? ' active' : ''}" data-creature="${creature}">${creature}</button>
+    `).join('')}
+  `;
+
+  container.querySelectorAll('.creature-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      selectedCreature = btn.dataset.creature;
+      renderCreatureFilters();
+
+      if (selectedSpotId !== null) {
+        const spot = SPOTS.find(s => s.id === selectedSpotId);
+        if (spot && !matchesFilters(spot)) {
+          map.closePopup();
+          selectedSpotId = null;
+        }
+      }
+
+      renderMarkers();
+      renderSpotList();
+    });
+  });
+}
+
 // ── Month Filter ──────────────────────────
 document.querySelectorAll('.month-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -320,9 +361,9 @@ document.querySelectorAll('.month-btn').forEach(btn => {
     selectedMonth = parseInt(btn.dataset.month);
 
     // 선택된 스팟이 이번 달 추천에 없으면 팝업 닫기
-    if (selectedSpotId !== null && selectedMonth !== 0) {
+    if (selectedSpotId !== null) {
       const spot = SPOTS.find(s => s.id === selectedSpotId);
-      if (spot && !spot.bestMonths.includes(selectedMonth)) {
+      if (spot && !matchesFilters(spot)) {
         map.closePopup();
         selectedSpotId = null;
       }
@@ -363,6 +404,7 @@ fetch('spots.json')
   .then(r => r.json())
   .then(data => {
     SPOTS = data;
+    renderCreatureFilters();
     renderMarkers();
     renderSpotList();
   })
