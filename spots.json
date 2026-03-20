@@ -1,0 +1,1411 @@
+[
+  {
+    "id": 1,
+    "name": "그레이트 배리어 리프",
+    "nameEn": "Great Barrier Reef",
+    "country": "호주 · Queensland",
+    "lat": -18.2871,
+    "lng": 147.6992,
+    "color": "#38bdf8",
+    "icon": "🐠",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "15~25m",
+    "waterTemp": "23~27°C",
+    "creatures": [
+      "감자바리",
+      "바다거북",
+      "만타가오리",
+      "리프 샤크",
+      "흰동가리",
+      "대왕조개",
+      "혹등고래"
+    ],
+    "desc": "세계 최대의 산호초 생태계로 유네스코 세계자연유산입니다. 7~9월에는 혹등고래 이동 경로와 겹쳐 고래 관찰도 가능하며, 거대한 감자바리와의 만남이 유명합니다."
+  },
+  {
+    "id": 2,
+    "name": "블루홀",
+    "nameEn": "Great Blue Hole",
+    "country": "벨리즈",
+    "lat": 17.3166,
+    "lng": -87.5346,
+    "color": "#2563eb",
+    "icon": "🦈",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "중급~고급",
+    "depth": "40~130m",
+    "visibility": "30~60m",
+    "waterTemp": "24~27°C",
+    "creatures": [
+      "불스 샤크",
+      "카리브해 리프 샤크",
+      "그루퍼",
+      "바라쿠다"
+    ],
+    "desc": "직경 약 300m의 거대한 수중 싱크홀입니다. 수직으로 내려가는 독특한 지형과 고대 종유석이 압도적이며, 깊은 수심에서 상어들을 관찰할 수 있는 세계적인 버킷리스트 스팟입니다."
+  },
+  {
+    "id": 3,
+    "name": "갈라파고스 제도",
+    "nameEn": "Galápagos Islands",
+    "country": "에콰도르",
+    "lat": -0.9538,
+    "lng": -90.9656,
+    "color": "#1d4ed8",
+    "icon": "🦭",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "고급",
+    "depth": "10~30m",
+    "visibility": "10~30m",
+    "waterTemp": "16~24°C",
+    "creatures": [
+      "귀상어",
+      "바다이구아나",
+      "갈라파고스 펭귄",
+      "바다사자",
+      "고래상어"
+    ],
+    "desc": "강한 해류 속에서 수백 마리의 귀상어 무리와 바다이구아나의 수중 유영을 볼 수 있는 신비로운 섬입니다. 다윈의 진화론에 영감을 준 만큼 독특한 생태계를 자랑합니다."
+  },
+  {
+    "id": 4,
+    "name": "몰디브",
+    "nameEn": "Maldives",
+    "country": "몰디브",
+    "lat": 3.2028,
+    "lng": 73.2207,
+    "color": "#06b6d4",
+    "icon": "🐋",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "20~40m",
+    "waterTemp": "26~30°C",
+    "creatures": [
+      "고래상어",
+      "만타가오리",
+      "리프 샤크",
+      "나폴레옹 피쉬"
+    ],
+    "desc": "인도양 최고의 다이빙 천국으로, 투명한 바다에서 고래상어와 만타가오리를 연중 만날 수 있습니다. 리브어보드를 이용한 원격 아톨 탐험이 특히 인기가 많습니다."
+  },
+  {
+    "id": 5,
+    "name": "홍해",
+    "nameEn": "Red Sea",
+    "country": "이집트",
+    "lat": 27.2579,
+    "lng": 33.8116,
+    "color": "#ef4444",
+    "icon": "🐡",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~40m",
+    "visibility": "20~35m",
+    "waterTemp": "22~28°C",
+    "creatures": [
+      "리프 샤크",
+      "돌고래",
+      "나폴레옹 피쉬",
+      "트리거 피쉬"
+    ],
+    "desc": "세계에서 가장 아름다운 산호초와 뛰어난 시야를 자랑하는 곳입니다. 라스 모하메드 등 이집트의 주요 거점은 초보자부터 전문가까지 모두 만족시키는 세계적 리조트 지역입니다."
+  },
+  {
+    "id": 6,
+    "name": "코모도 섬",
+    "nameEn": "Komodo Island",
+    "country": "인도네시아",
+    "lat": -8.5565,
+    "lng": 119.4863,
+    "color": "#16a34a",
+    "icon": "🐉",
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "difficulty": "중급~고급",
+    "depth": "5~30m",
+    "visibility": "15~25m",
+    "waterTemp": "20~28°C",
+    "creatures": [
+      "만타가오리",
+      "피그미 해마",
+      "귀상어",
+      "코모도왕도마뱀"
+    ],
+    "desc": "인도양과 태평양의 해류가 교차하여 생물 다양성이 폭발하는 곳입니다. 강한 조류 덕분에 거대 만타가오리와 상어들을 근거리에서 관찰할 수 있습니다."
+  },
+  {
+    "id": 7,
+    "name": "팔라우",
+    "nameEn": "Palau",
+    "country": "팔라우",
+    "lat": 7.515,
+    "lng": 134.5825,
+    "color": "#f59e0b",
+    "icon": "🪼",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "중급",
+    "depth": "5~40m",
+    "visibility": "20~40m",
+    "waterTemp": "27~30°C",
+    "creatures": [
+      "황금해파리",
+      "나폴레옹 피쉬",
+      "화이트팁 샤크",
+      "만타가오리"
+    ],
+    "desc": "젤리피쉬 레이크의 해파리 스노클링과 블루 코너의 역동적인 드리프트 다이빙으로 유명합니다. 수중 후크를 걸고 상어 떼를 구경하는 독특한 경험을 제공합니다."
+  },
+  {
+    "id": 8,
+    "name": "코코스 아일랜드",
+    "nameEn": "Cocos Island",
+    "country": "코스타리카",
+    "lat": 5.533,
+    "lng": -87.0667,
+    "color": "#15803d",
+    "icon": "🦈",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "고급",
+    "depth": "15~40m",
+    "visibility": "10~30m",
+    "waterTemp": "24~28°C",
+    "creatures": [
+      "귀상어 군락",
+      "갈라파고스 샤크",
+      "범고래",
+      "참치"
+    ],
+    "desc": "'상어의 섬'으로 불리며 수백 마리의 귀상어 무리가 유영하는 장관을 볼 수 있습니다. 외딴 바다에 위치하여 리브어보드로만 접근 가능한 고급 다이버의 성지입니다."
+  },
+  {
+    "id": 9,
+    "name": "시파단",
+    "nameEn": "Sipadan Island",
+    "country": "말레이시아 · 보르네오",
+    "lat": 4.1162,
+    "lng": 118.6286,
+    "color": "#0ea5e9",
+    "icon": "🐢",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "difficulty": "중급",
+    "depth": "5~40m",
+    "visibility": "20~30m",
+    "waterTemp": "26~30°C",
+    "creatures": [
+      "바다거북",
+      "바라쿠다 토네이도",
+      "잭피쉬 토네이도",
+      "화이트팁 샤크",
+      "그레이 리프 샤크",
+      "나폴레옹 피쉬",
+      "씨호스",
+      "문어"
+    ],
+    "desc": "자크 쿠스토가 '미지의 예술'이라 극찬한 말레이시아 최고의 다이빙 명소입니다. 섬 전체가 수직 드롭으로 형성된 독특한 지형으로, 드롭오프 아래 수백 마리의 바라쿠다와 잭피쉬가 토네이도를 이루는 장면은 세계 어디서도 볼 수 없습니다. 세계 최고 밀도의 바다거북 서식지로, 다이빙 중 수십 마리를 동시에 만나는 것이 일상입니다."
+  },
+  {
+    "id": 10,
+    "name": "라자 암팟",
+    "nameEn": "Raja Ampat",
+    "country": "인도네시아 · 파푸아",
+    "lat": -0.2341,
+    "lng": 130.5258,
+    "color": "#10b981",
+    "icon": "🐙",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "10~30m",
+    "waterTemp": "26~30°C",
+    "creatures": [
+      "워킹 샤크",
+      "피그미 해마",
+      "듀공",
+      "만타가오리"
+    ],
+    "desc": "지구상 최고의 해양 생물 다양성을 보유한 곳입니다. 이곳에서만 볼 수 있는 워킹샤크와 형형색색의 산호초가 다이버들을 매료시킵니다."
+  },
+  {
+    "id": 11,
+    "name": "안다만 해",
+    "nameEn": "Andaman Sea",
+    "country": "태국",
+    "lat": 9.5128,
+    "lng": 98.3923,
+    "color": "#6366f1",
+    "icon": "🦈",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "15~25m",
+    "waterTemp": "27~30°C",
+    "creatures": [
+      "고래상어",
+      "레오파드 샤크",
+      "만타가오리",
+      "보라색 연산호"
+    ],
+    "desc": "시밀란 제도와 리쉘리외 락은 태국 다이빙의 정점입니다. 건기에는 고래상어 출현이 잦으며 화려한 산호와 물고기 떼가 어우러진 세계적 포인트입니다."
+  },
+  {
+    "id": 12,
+    "name": "오키나와",
+    "nameEn": "Okinawa",
+    "country": "일본",
+    "lat": 26.5013,
+    "lng": 127.9453,
+    "color": "#8b5cf6",
+    "icon": "🐡",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "20~30m",
+    "waterTemp": "22~29°C",
+    "creatures": [
+      "귀상어 군집",
+      "만타가오리",
+      "바다거북",
+      "요나구니 유적"
+    ],
+    "desc": "케라마 제도와 요나구니 섬의 수중 유적 등으로 유명합니다. 한국에서 가장 가깝게 만날 수 있는 세계적 수준의 다이빙 포인트입니다."
+  },
+  {
+    "id": 13,
+    "name": "피지",
+    "nameEn": "Fiji Islands",
+    "country": "피지",
+    "lat": -17.7134,
+    "lng": 178.065,
+    "color": "#d97706",
+    "icon": "🪸",
+    "bestMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "15~30m",
+    "waterTemp": "24~28°C",
+    "creatures": [
+      "소프트 코랄",
+      "불스 샤크",
+      "이글레이"
+    ],
+    "desc": "'세계 소프트 코랄의 수도'로 불릴 만큼 산호초가 화려합니다. 베카 라군에서는 수십 마리의 상어가 맴도는 박진감 넘치는 샤크 다이빙을 즐길 수 있습니다."
+  },
+  {
+    "id": 14,
+    "name": "소코로 제도",
+    "nameEn": "Socorro Islands",
+    "country": "멕시코",
+    "lat": 18.7333,
+    "lng": -110.9667,
+    "color": "#dc2626",
+    "icon": "🐬",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "고급",
+    "depth": "15~40m",
+    "visibility": "30~50m",
+    "waterTemp": "24~28°C",
+    "creatures": [
+      "오셔닉 만타",
+      "혹등고래",
+      "돌고래",
+      "범고래"
+    ],
+    "desc": "거대 오셔닉 만타가오리가 다이버에게 직접 다가오는 곳입니다. 겨울철에는 혹등고래의 노랫소리를 들으며 다이빙하는 경이로운 경험이 가능합니다."
+  },
+  {
+    "id": 15,
+    "name": "하와이",
+    "nameEn": "Hawaii",
+    "country": "미국",
+    "lat": 19.8968,
+    "lng": -155.5828,
+    "color": "#f43f5e",
+    "icon": "🐬",
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "20~30m",
+    "waterTemp": "23~27°C",
+    "creatures": [
+      "야간 만타가오리",
+      "스피너 돌핀",
+      "하와이 그린 터틀"
+    ],
+    "desc": "빅 아일랜드의 야간 만타가오리 다이빙은 세계 최고로 손꼽힙니다. 조명 아래로 모여드는 거대 만타들을 코앞에서 관찰할 수 있습니다."
+  },
+  {
+    "id": 16,
+    "name": "코르테스 해",
+    "nameEn": "Sea of Cortez",
+    "country": "멕시코 · 바하칼리포르니아",
+    "lat": 25.0,
+    "lng": -109.5,
+    "color": "#ea580c",
+    "icon": "🦭",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "15~25m",
+    "waterTemp": "18~28°C",
+    "creatures": [
+      "바다사자",
+      "모불라 레이",
+      "고래상어",
+      "범고래"
+    ],
+    "desc": "'세계의 수족관'이라 불리며, 수천 마리의 모불라 레이 군무가 장관입니다. 호기심 많은 바다사자와 함께 수영하는 즐거움이 큽니다."
+  },
+  {
+    "id": 17,
+    "name": "튀르크스 카이코스",
+    "nameEn": "Turks & Caicos",
+    "country": "영국령 · 카리브해",
+    "lat": 21.694,
+    "lng": -71.7979,
+    "color": "#0891b2",
+    "icon": "🐋",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "30~60m",
+    "waterTemp": "24~28°C",
+    "creatures": [
+      "혹등고래",
+      "카리브해 리프 샤크",
+      "너스 샤크"
+    ],
+    "desc": "카리브해에서 가장 맑은 시야를 자랑하는 크리스탈 워터가 펼쳐집니다. 1~4월에는 출산을 위해 찾아온 혹등고래를 만날 수 있습니다."
+  },
+  {
+    "id": 18,
+    "name": "투바타하 리프",
+    "nameEn": "Tubbataha Reef",
+    "country": "필리핀 · Sulu Sea",
+    "lat": 8.85,
+    "lng": 119.9167,
+    "color": "#0ea5e9",
+    "icon": "🐠",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficulty": "중급~고급",
+    "depth": "5~40m",
+    "visibility": "30~45m",
+    "waterTemp": "27~30°C",
+    "creatures": [
+      "고래상어",
+      "귀상어",
+      "만타가오리",
+      "잭피쉬"
+    ],
+    "desc": "연중 단 3개월만 리브어보드로 허용되는 필리핀의 보물입니다. 가장 건강한 산호초 생태계를 보존하고 있어 수중 사진가들의 성지입니다."
+  },
+  {
+    "id": 19,
+    "name": "말라파스쿠아",
+    "nameEn": "Malapascua Island",
+    "country": "필리핀 · Cebu",
+    "lat": 11.3323,
+    "lng": 124.1167,
+    "color": "#3b82f6",
+    "icon": "🦈",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "difficulty": "중급",
+    "depth": "10~30m",
+    "visibility": "15~30m",
+    "waterTemp": "26~30°C",
+    "creatures": [
+      "환도상어",
+      "타이거 샤크",
+      "마크로 생물"
+    ],
+    "desc": "세계에서 거의 유일하게 신비로운 환도상어를 매일 아침 일정하게 볼 수 있는 곳입니다. 긴 꼬리가 특징인 상어 사진을 남기기에 최적입니다."
+  },
+  {
+    "id": 20,
+    "name": "실프라 균열",
+    "nameEn": "Silfra Fissure",
+    "country": "아이슬란드 · 싱벨리르 국립공원",
+    "lat": 64.2555,
+    "lng": -21.1171,
+    "color": "#7dd3fc",
+    "icon": "❄️",
+    "bestMonths": [
+      6,
+      7,
+      8
+    ],
+    "difficulty": "중급",
+    "depth": "5~18m",
+    "visibility": "100m+",
+    "waterTemp": "2~4°C",
+    "creatures": [
+      "난쟁이 곤들매기",
+      "수중 이끼"
+    ],
+    "desc": "유라시아 판과 북미 판 사이에서 다이빙하는 유일무이한 경험입니다. 100m 이상의 투명한 시야는 마치 공중에 떠 있는 기분을 줍니다."
+  },
+  {
+    "id": 21,
+    "name": "추크 라군",
+    "nameEn": "Chuuk Lagoon",
+    "country": "미크로네시아",
+    "lat": 7.447,
+    "lng": 151.847,
+    "color": "#475569",
+    "icon": "🚢",
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "초급~고급",
+    "depth": "15~40m+",
+    "visibility": "15~30m",
+    "waterTemp": "27~30°C",
+    "creatures": [
+      "2차대전 난파선",
+      "리프 샤크",
+      "거북이"
+    ],
+    "desc": "세계 최대의 난파선 전시장으로 침몰한 군함과 전투기들이 잠들어 있습니다. 역사적 가치와 수중 탐험의 재미를 동시에 제공합니다."
+  },
+  {
+    "id": 22,
+    "name": "파카라바",
+    "nameEn": "Fakarava",
+    "country": "프랑스령 폴리네시아",
+    "lat": -16.3,
+    "lng": -145.6,
+    "color": "#2563eb",
+    "icon": "🦈",
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "중급~고급",
+    "depth": "15~30m",
+    "visibility": "30m+",
+    "waterTemp": "26~29°C",
+    "creatures": [
+      "상어의 벽",
+      "만타가오리",
+      "돌고래"
+    ],
+    "desc": "수백 마리의 상어가 조류 속에 멈춰 서 있는 '상어의 벽'이 장관입니다. 유네스코 생물권 보전지역답게 압도적인 해양 생태계를 보여줍니다."
+  },
+  {
+    "id": 23,
+    "name": "보네르",
+    "nameEn": "Bonaire",
+    "country": "네덜란드령 카리브해",
+    "lat": 12.1784,
+    "lng": -68.2385,
+    "color": "#06b6d4",
+    "icon": "🏝️",
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~35m",
+    "visibility": "30m+",
+    "waterTemp": "26~29°C",
+    "creatures": [
+      "해마",
+      "프로그피쉬",
+      "이글 레이"
+    ],
+    "desc": "'비치 다이빙의 수도'로, 섬 전체가 해양 공원으로 지정되어 있습니다. 원하는 해변 어디서든 자유롭게 입수하는 독특한 환경입니다."
+  },
+  {
+    "id": 24,
+    "name": "암본",
+    "nameEn": "Ambon",
+    "country": "인도네시아 · Maluku",
+    "lat": -3.6958,
+    "lng": 128.1815,
+    "color": "#14b8a6",
+    "icon": "🐙",
+    "bestMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "중급",
+    "depth": "5~30m",
+    "visibility": "10~20m",
+    "waterTemp": "26~30°C",
+    "creatures": [
+      "사이키델릭 프로그피쉬",
+      "미믹 옥토퍼스",
+      "린노피아스"
+    ],
+    "desc": "세계 최고의 머크 다이빙 성지로 희귀한 소형 생물들을 찾기에 최적입니다. 수중 사진가들에게는 접사 촬영의 보물상자와 같습니다."
+  },
+  {
+    "id": 25,
+    "name": "반다해",
+    "nameEn": "Banda Sea",
+    "country": "인도네시아 · Maluku",
+    "lat": -5.35,
+    "lng": 129.55,
+    "color": "#1d4ed8",
+    "icon": "🦈",
+    "bestMonths": [
+      9,
+      10,
+      11
+    ],
+    "difficulty": "고급",
+    "depth": "10~40m",
+    "visibility": "30~40m",
+    "waterTemp": "25~29°C",
+    "creatures": [
+      "망치상어 군락",
+      "바다뱀",
+      "대왕고래"
+    ],
+    "desc": "9~11월 수백 마리의 망치상어가 나타나는 장관을 볼 수 있는 곳입니다. 심해에서 올라오는 영양염류 덕분에 대형 원양 생물들이 가득합니다."
+  },
+  {
+    "id": 26,
+    "name": "마나도",
+    "nameEn": "Manado (Bunaken & Lembeh)",
+    "country": "인도네시아 · North Sulawesi",
+    "lat": 1.4748,
+    "lng": 124.8465,
+    "color": "#059669",
+    "icon": "🐢",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "difficulty": "초급~고급",
+    "depth": "5~40m+",
+    "visibility": "10~40m",
+    "waterTemp": "26~30°C",
+    "creatures": [
+      "바다거북",
+      "프로그피쉬",
+      "피그미 해마"
+    ],
+    "desc": "웅장한 수직 벽(부나켄)과 세계 최정상의 머크 다이빙(렘베)을 한 번에 즐길 수 있는 종합 선물 세트입니다."
+  },
+  {
+    "id": 27,
+    "name": "아닐라오",
+    "nameEn": "Anilao",
+    "country": "필리핀 · Batangas",
+    "lat": 13.76,
+    "lng": 120.89,
+    "color": "#ec4899",
+    "icon": "🐌",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "10~25m",
+    "waterTemp": "25~29°C",
+    "creatures": [
+      "누디브랜치",
+      "리노피아스",
+      "블루링 옥토퍼스"
+    ],
+    "desc": "전 세계 누디브랜치의 수도로 불리는 마크로 다이빙의 핵심 스팟입니다. 마닐라에서 접근성이 좋아 인기가 높습니다."
+  },
+  {
+    "id": 28,
+    "name": "아포 리프",
+    "nameEn": "Apo Reef",
+    "country": "필리핀 · Occidental Mindoro",
+    "lat": 12.67,
+    "lng": 120.48,
+    "color": "#1d4ed8",
+    "icon": "🦈",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "중급~고급",
+    "depth": "5~40m",
+    "visibility": "30~45m",
+    "waterTemp": "27~30°C",
+    "creatures": [
+      "그레이 리프 샤크",
+      "망치상어",
+      "잭피쉬 떼"
+    ],
+    "desc": "필리핀 최대의 단일 산호초 시스템으로 압도적인 시야와 광각 촬영 환경을 제공합니다."
+  },
+  {
+    "id": 29,
+    "name": "코론",
+    "nameEn": "Coron",
+    "country": "필리핀 · Palawan",
+    "lat": 12.0,
+    "lng": 120.2,
+    "color": "#475569",
+    "icon": "🚢",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~고급",
+    "depth": "5~40m",
+    "visibility": "10~25m",
+    "waterTemp": "27~30°C",
+    "creatures": [
+      "WWII 난파선",
+      "듀공",
+      "바라쿠다"
+    ],
+    "desc": "침몰한 일본 군함들을 탐험하는 난파선 다이빙의 메카로, 수온 약층이 독특한 바라쿠다 레이크가 유명합니다."
+  },
+  {
+    "id": 30,
+    "name": "모알보알",
+    "nameEn": "Moalboal",
+    "country": "필리핀 · Cebu",
+    "lat": 9.95,
+    "lng": 123.4,
+    "color": "#0ea5e9",
+    "icon": "🐟",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~35m",
+    "visibility": "15~30m",
+    "waterTemp": "26~29°C",
+    "creatures": [
+      "정어리 떼",
+      "바다거북",
+      "프로그피쉬"
+    ],
+    "desc": "해안가 바로 앞에서 펼쳐지는 수백만 마리 정어리 떼의 군무인 '정어리 런'이 압권입니다."
+  },
+  {
+    "id": 31,
+    "name": "다우인 & 두마게티",
+    "nameEn": "Dauin & Dumaguete",
+    "country": "필리핀 · Negros Oriental",
+    "lat": 9.19,
+    "lng": 123.27,
+    "color": "#14b8a6",
+    "icon": "🐙",
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "15~30m",
+    "waterTemp": "26~30°C",
+    "creatures": [
+      "블루링 옥토퍼스",
+      "플람보양 컷틀피쉬",
+      "피그미 해마"
+    ],
+    "desc": "검은 모래 바닥의 진귀한 생물들과 인근 아포 섬의 건강한 산호를 동시에 즐길 수 있습니다."
+  },
+  {
+    "id": 32,
+    "name": "팡라오 & 발리카삭",
+    "nameEn": "Panglao & Balicasag",
+    "country": "필리핀 · Bohol",
+    "lat": 9.58,
+    "lng": 123.74,
+    "color": "#3b82f6",
+    "icon": "🐢",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "20~35m",
+    "waterTemp": "26~29°C",
+    "creatures": [
+      "잭피쉬 군무",
+      "바라쿠다",
+      "바다거북"
+    ],
+    "desc": "거대한 잭피쉬 소용돌이와 수많은 거북이를 아주 가까이서 만날 수 있는 보홀의 보석입니다."
+  },
+  {
+    "id": 33,
+    "name": "푸에르토 갈레라",
+    "nameEn": "Puerto Galera",
+    "country": "필리핀 · Oriental Mindoro",
+    "lat": 13.51,
+    "lng": 120.95,
+    "color": "#06b6d4",
+    "icon": "🪸",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "15~30m",
+    "waterTemp": "25~30°C",
+    "creatures": [
+      "피그미 해마",
+      "스위트립스",
+      "산호"
+    ],
+    "desc": "조류 다이빙과 엄청난 생물 다양성을 자랑하며 초보부터 상급자까지 모두 즐기기 좋습니다."
+  },
+  {
+    "id": 34,
+    "name": "세노테",
+    "nameEn": "Cenotes",
+    "country": "멕시코 · 유카탄",
+    "lat": 20.2114,
+    "lng": -87.4658,
+    "color": "#0ea5e9",
+    "icon": "🔦",
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "difficulty": "중급",
+    "depth": "5~15m",
+    "visibility": "100m+",
+    "waterTemp": "24~25°C",
+    "creatures": [
+      "종유석",
+      "할로클라인",
+      "빛의 커튼"
+    ],
+    "desc": "수중 동굴 틈 사이로 쏟아지는 빛과 초현실적인 투명도가 압권인 신비로운 장소입니다."
+  },
+  {
+    "id": 35,
+    "name": "카보 풀모",
+    "nameEn": "Cabo Pulmo",
+    "country": "멕시코 · 바하칼리포르니아",
+    "lat": 23.445,
+    "lng": -109.43,
+    "color": "#1d4ed8",
+    "icon": "🌪️",
+    "bestMonths": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~25m",
+    "visibility": "15~30m",
+    "waterTemp": "22~29°C",
+    "creatures": [
+      "잭피쉬 토네이도",
+      "불 샤크",
+      "바다사자"
+    ],
+    "desc": "수만 마리의 잭피쉬가 만드는 거대한 토네이도를 볼 수 있는 바다의 기적 같은 곳입니다."
+  },
+  {
+    "id": 36,
+    "name": "사르딘 런",
+    "nameEn": "Sardine Run",
+    "country": "남아프리카공화국",
+    "lat": -31.6264,
+    "lng": 29.5369,
+    "color": "#1e293b",
+    "icon": "🐟",
+    "bestMonths": [
+      6,
+      7
+    ],
+    "difficulty": "고급",
+    "depth": "0~30m",
+    "visibility": "5~20m",
+    "waterTemp": "15~20°C",
+    "creatures": [
+      "정어리 떼",
+      "브라이드 고래",
+      "상어"
+    ],
+    "desc": "수억 마리 정어리와 포식자들이 벌이는 야생의 대축제로 다이나믹한 탐험을 선사합니다."
+  },
+  {
+    "id": 37,
+    "name": "푸바물라",
+    "nameEn": "Fuvahmulah",
+    "country": "몰디브",
+    "lat": -0.2944,
+    "lng": 73.4278,
+    "color": "#dc2626",
+    "icon": "🦈",
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "중급~고급",
+    "depth": "10~30m",
+    "visibility": "20~40m",
+    "waterTemp": "27~30°C",
+    "creatures": [
+      "타이거 샤크",
+      "환도상어",
+      "고래상어"
+    ],
+    "desc": "몰디브의 '상어 수도'로 연중 타이거 샤크를 만날 수 있는 강렬한 야생 포인트입니다."
+  },
+  {
+    "id": 38,
+    "name": "알로르",
+    "nameEn": "Alor",
+    "country": "인도네시아",
+    "lat": -8.2461,
+    "lng": 124.5126,
+    "color": "#15803d",
+    "icon": "🌋",
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "중급~고급",
+    "depth": "5~40m",
+    "visibility": "25~40m",
+    "waterTemp": "25~29°C",
+    "creatures": [
+      "망치상어",
+      "몰라몰라",
+      "피그미 해마"
+    ],
+    "desc": "강한 조류와 믿기지 않을 정도로 건강한 산호초를 자랑하는 인도네시아의 숨은 보석입니다."
+  },
+  {
+    "id": 39,
+    "name": "밴쿠버 아일랜드",
+    "nameEn": "Vancouver Island",
+    "country": "캐나다",
+    "lat": 49.6506,
+    "lng": -125.4494,
+    "color": "#334155",
+    "icon": "🐙",
+    "bestMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "difficulty": "중급~고급",
+    "depth": "10~30m",
+    "visibility": "10~25m",
+    "waterTemp": "7~12°C",
+    "creatures": [
+      "대왕 문어",
+      "늑대장어",
+      "바다사자"
+    ],
+    "desc": "냉수 다이빙의 정수로 켈프 숲 사이에서 거대한 대왕 문어를 만나는 신비로운 곳입니다."
+  },
+  {
+    "id": 40,
+    "name": "아조레스 제도",
+    "nameEn": "Azores",
+    "country": "포르투갈",
+    "lat": 38.5,
+    "lng": -28.0,
+    "color": "#2563eb",
+    "icon": "🦈",
+    "bestMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "difficulty": "고급",
+    "depth": "15~40m",
+    "visibility": "30m+",
+    "waterTemp": "18~24°C",
+    "creatures": [
+      "청상어",
+      "마코상어",
+      "향유고래"
+    ],
+    "desc": "매혹적인 푸른빛의 청상어와 세계에서 가장 빠른 마코상어를 볼 수 있는 대서양의 성지입니다."
+  },
+  {
+    "id": 41,
+    "name": "SS 프레지던트 쿨리지",
+    "nameEn": "SS President Coolidge",
+    "country": "바누아투",
+    "lat": -15.52,
+    "lng": 167.24,
+    "color": "#475569",
+    "icon": "🚢",
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "difficulty": "중급~고급",
+    "depth": "20~70m",
+    "visibility": "20~30m",
+    "waterTemp": "26~29°C",
+    "creatures": [
+      "난파선 유물",
+      "거북이"
+    ],
+    "desc": "200m 길이의 호화 여객선 내부 유물들이 고스란히 남아있는 세계 최대의 비치 다이빙 난파선입니다."
+  },
+  {
+    "id": 42,
+    "name": "브라더스 & 데달루스",
+    "nameEn": "Brothers & Daedalus",
+    "country": "이집트 · 홍해",
+    "lat": 24.93,
+    "lng": 34.85,
+    "color": "#ef4444",
+    "icon": "🚩",
+    "bestMonths": [
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "고급",
+    "depth": "10~40m",
+    "visibility": "30m+",
+    "waterTemp": "23~28°C",
+    "creatures": [
+      "오셔닉 화이트팁",
+      "망치상어"
+    ],
+    "desc": "홍해 한복판 고립된 섬으로 강력한 조류와 함께 상어 떼를 만나는 홍해 최고의 야생 스팟입니다."
+  },
+  {
+    "id": 43,
+    "name": "발리",
+    "nameEn": "Bali",
+    "country": "인도네시아",
+    "lat": -8.3405,
+    "lng": 115.5045,
+    "color": "#10b981",
+    "icon": "☀️",
+    "bestMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "difficulty": "초급~고급",
+    "depth": "5~40m",
+    "visibility": "15~30m",
+    "waterTemp": "20~28°C",
+    "creatures": [
+      "몰라몰라",
+      "만타가오리",
+      "USAT 리버티"
+    ],
+    "desc": "유명한 난파선과 개복치(Mola Mola)를 동시에 즐길 수 있는 인도네시아 핵심 지역입니다."
+  },
+  {
+    "id": 44,
+    "name": "SS 시슬곰",
+    "nameEn": "SS Thistlegorm",
+    "country": "이집트 · 홍해",
+    "lat": 27.8143,
+    "lng": 33.9201,
+    "color": "#475569",
+    "icon": "🚢",
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "중급~고급",
+    "depth": "16~32m",
+    "visibility": "15~25m",
+    "waterTemp": "22~28°C",
+    "creatures": [
+      "군용 오토바이",
+      "트럭",
+      "기차"
+    ],
+    "desc": "2차 대전 군수물자가 가득한 채 침몰한 선체 내부가 박물관 같은 세계 1위 난파선 포인트입니다."
+  },
+  {
+    "id": 45,
+    "name": "닝갈루 리프",
+    "nameEn": "Ningaloo Reef",
+    "country": "호주",
+    "lat": -22.6711,
+    "lng": 113.6231,
+    "color": "#0ea5e9",
+    "icon": "🐋",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~25m",
+    "visibility": "15~30m",
+    "waterTemp": "22~27°C",
+    "creatures": [
+      "고래상어",
+      "혹등고래",
+      "듀공"
+    ],
+    "desc": "해변 바로 앞에서 산호초가 시작되는 곳으로 고래상어와 함께 수영할 수 있는 야생의 보고입니다."
+  },
+  {
+    "id": 46,
+    "name": "랑기로아",
+    "nameEn": "Rangiroa",
+    "country": "프랑스령 폴리네시아",
+    "lat": -15.1189,
+    "lng": -147.6534,
+    "color": "#3b82f6",
+    "icon": "🐬",
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "고급",
+    "depth": "15~40m",
+    "visibility": "30m+",
+    "waterTemp": "26~29°C",
+    "creatures": [
+      "야생 돌고래",
+      "그레이 리프 샤크"
+    ],
+    "desc": "강한 조류 속에서 수백 마리 상어 벽을 통과하고 야생 돌고래와 교감하는 특별한 곳입니다."
+  },
+  {
+    "id": 47,
+    "name": "푸어 나이츠 제도",
+    "nameEn": "Poor Knights Islands",
+    "country": "뉴질랜드",
+    "lat": -35.4714,
+    "lng": 174.7402,
+    "color": "#15803d",
+    "icon": "🪸",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "difficulty": "초급~중급",
+    "depth": "5~30m",
+    "visibility": "15~30m",
+    "waterTemp": "15~22°C",
+    "creatures": [
+      "가오리 군락",
+      "수중 동굴 생물"
+    ],
+    "desc": "아열대 해류와 냉수가 만나 독특한 생태계를 형성하며 웅장한 수중 아치가 특징입니다."
+  },
+  {
+    "id": 48,
+    "name": "비키니 환초",
+    "nameEn": "Bikini Atoll",
+    "country": "마셜 제도",
+    "lat": 11.6,
+    "lng": 165.3833,
+    "color": "#1e293b",
+    "icon": "☢️",
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "difficulty": "전문가",
+    "depth": "25~55m",
+    "visibility": "30m+",
+    "waterTemp": "27~29°C",
+    "creatures": [
+      "USS 사라토가",
+      "항공모함"
+    ],
+    "desc": "핵실험으로 침몰한 거대 군함들이 잠긴 곳으로 기술 다이버들에게만 허용되는 궁극의 성지입니다."
+  },
+  {
+    "id": 49,
+    "name": "스카파 플로우",
+    "nameEn": "Scapa Flow",
+    "country": "영국 · 스코틀랜드",
+    "lat": 58.91,
+    "lng": -3.05,
+    "color": "#334155",
+    "icon": "🔱",
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "difficulty": "중급~고급",
+    "depth": "12~45m",
+    "visibility": "5~15m",
+    "waterTemp": "8~14°C",
+    "creatures": [
+      "WWI 독일 함대"
+    ],
+    "desc": "1차 대전 당시 자침한 독일 전함들이 보존된 차가운 바다 속 역사적 탐험지입니다."
+  },
+  {
+    "id": 50,
+    "name": "알리왈 숄",
+    "nameEn": "Aliwal Shoal",
+    "country": "남아프리카공화국",
+    "lat": -30.2647,
+    "lng": 30.8252,
+    "color": "#dc2626",
+    "icon": "🦈",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "중급~고급",
+    "depth": "10~30m",
+    "visibility": "10~25m",
+    "waterTemp": "19~24°C",
+    "creatures": [
+      "레기드 투스 샤크",
+      "타이거 샤크"
+    ],
+    "desc": "수백 마리의 상어들과 케이지 없이 수영하는 박진감 넘치는 다이빙을 선사합니다."
+  }
+]
